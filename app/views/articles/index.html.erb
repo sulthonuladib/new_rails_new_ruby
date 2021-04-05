@@ -1,0 +1,15 @@
+<center>
+  <h1>Hello Rails</h1>
+  <% 3.times do %>
+    <h1>LOOP</h1>
+  <% end %>
+
+  <% @articles.each do |article| %>
+    <li>
+      <%= article.title %>
+    </li>
+    <li>
+      <%= article.body %>
+    </li>
+  <% end %>
+</center>
